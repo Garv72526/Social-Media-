@@ -1,0 +1,38 @@
+/* Each online friend row */
+.chatOnlineFriend {
+    display: flex;              /* Align image + name in a row */
+    align-items: center;        /* Vertically center them */
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Profile image */
+.chatOnlineImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;         /* Makes image circular */
+    object-fit: cover;          /* Prevents image distortion */
+    border: 1px solid white;    /* Optional border for styling */
+}
+
+/* Container for image + badge */
+.chatOnlineImgContainer {
+    position: relative;         /* 🔑 IMPORTANT:
+                                  This makes it the reference point
+                                  for absolutely positioned badge */
+    margin-right: 10px;
+}
+
+/* Green online badge */
+.chatOnlineBadge {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;         /* Circle */
+    background-color: limegreen;
+
+    position: absolute;         /* 🔑 Positioned inside container */
+    
+    top: 2px;                   /* Distance from top of container */
+    right: 2px;                 /* Distance from right of container */
+}

@@ -1,0 +1,46 @@
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Top section (image + text) */
+.messageTop {
+    display: flex;
+}
+
+/* Profile image */
+.messageImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* Default message style (OTHER users) */
+.messageText {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blue;   /* blue bubble */
+    color: white;
+    max-width: 300px;
+}
+
+/* Time text */
+.messageBottom {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* 👇 When message belongs to current user */
+.message.own {
+    align-items: flex-end;  
+    /* pushes message to the RIGHT side */
+}
+
+/* 👇 Target ONLY messages with class "message own" */
+.message.own .messageText {
+    background-color: lightgray; /* different color */
+    color: black;
+}
