@@ -21,8 +21,6 @@ A full-stack social media platform with an integrated NLP sentiment analysis mod
 **ML API:** Python, Flask, Scikit-learn, Joblib  
 **Database:** MongoDB  
 
-## Setup
-\```
 # Frontend
 npm run dev
 
@@ -34,5 +32,6 @@ cd sentiment-api && pip install -r requirements.txt && python app.py
 \```
 
 ## Screenshots
-![Uploading {AFF1A0F4-4373-4C79-B75A-383F367699FB}.png…]()
+[Uploading {AFF1A0F4-4373-4C79-B75A-383F367699FB}.png…]()
+
 
