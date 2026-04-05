@@ -6,6 +6,7 @@ import axios from "axios"
 import {format} from "timeago.js"
 import { Link } from 'react-router-dom'
 import { AuthContext } from '../../context/AuthContext'
+import SentimentBadge from "../SentimentBadge/SentimentBadge"
 
 function Post({post}) {
     const[like ,setLike]=useState(post.likes.length)
@@ -54,9 +55,9 @@ function Post({post}) {
         }
         setLoadingCaption(false);
     };
-
-  return (
-    <div className='post'>
+    
+    return (
+        <div className='post'>
         <div className="postWrapper">
             <div className="postTop">
                 <div className='postTopLeft'>
@@ -71,6 +72,7 @@ function Post({post}) {
                 </div>
             </div>
             <div className="postCenter">
+                <SentimentBadge text={post?.desc} />
                 <span className="postText">{post?.desc}</span>
                 <img src={PF+post.img}className='postImg'></img>
             </div>
