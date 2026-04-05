@@ -32,6 +32,7 @@ cd sentiment-api && pip install -r requirements.txt && python app.py
 \```
 
 ## Screenshots
-[Uploading {AFF1A0F4-4373-4C79-B75A-383F367699FB}.png…]()
+<img width="1857" height="882" alt="image" src="https://github.com/user-attachments/assets/24bd0e95-6f29-4e99-9d8d-be21335f8c77" />
+
 
 
