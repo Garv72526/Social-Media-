@@ -24,14 +24,15 @@ A full-stack social media platform with an integrated NLP sentiment analysis mod
 ## Setup
 \```
 # Frontend
-cd client && npm install && npm run dev
+npm run dev
 
 # Backend
-cd server && npm install && node index.js
+nodemon index.js
 
 # ML API
 cd sentiment-api && pip install -r requirements.txt && python app.py
 \```
 
 ## Screenshots
-[Add a screenshot of your app here]
+![Uploading {AFF1A0F4-4373-4C79-B75A-383F367699FB}.png…]()
+
