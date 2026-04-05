@@ -2,9 +2,6 @@
 
 A full-stack social media platform with an integrated NLP sentiment analysis model that automatically classifies posts as positive or negative in real time.
 
-## Live Demo
-[Add your deployed link here]
-
 ## Features
 - Real-time private messaging using Socket.io
 - Follow/unfollow users with instant notifications
